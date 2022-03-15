@@ -14,10 +14,9 @@ let rounds = Number(prompt(`Hi, ${playerName}! Would you like to play 3 or 6 hol
 
 let score = 0;
 for (let i = 0; i < rounds; i++) {
-    let holeScore = Number(prompt("How many puts for hole " + (i + 1) + " ? (par 3)"));
+    let holeScore = Number(prompt("How many puts for hole " + (i + 1) + "? (par: 3)"));
     score += holeScore
 }
-console.log(score)
 
 let par;
 
